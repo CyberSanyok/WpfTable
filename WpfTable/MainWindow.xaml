@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfTable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTable"
+        
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="601.579" MinHeight="500" MinWidth="500" Width="928.571">
+    <Window.Background>
+        <ImageBrush ImageSource="dark-space_10000x5625_tfi46.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+    
+    <Border BorderBrush="#FF000000" BorderThickness="1" CornerRadius="8">
+
+        <Grid AutomationProperties.Name="MyDataGrid">
+            <Frame x:Name="MyFrame" Grid.Row="1" NavigationUIVisibility="Hidden" >
+            </Frame>
+        </Grid>
+    </Border>
+</Window>
+    
